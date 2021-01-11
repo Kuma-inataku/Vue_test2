@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
+  <title>Vue_Test</title>
+</head>
+<body>
+  <div id="app">
+    {{ message }}
+    <div>
+      <input type="text" v-model="value">
+      <p v-if="flag">trueだお</p>
+      <p v-if="!flag">falseだお</p>
+    </div>
+  </div>
+    <script src="main.js"></script>
+  </body>
+</html>
