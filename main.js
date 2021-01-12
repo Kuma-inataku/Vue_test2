@@ -1,6 +1,6 @@
 var app = new Vue({
   el: '#app',
-  data() {
+  data:() => {
     return{
       text:"",
       flag:false
